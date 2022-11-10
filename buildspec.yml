@@ -13,7 +13,6 @@ phases:
     commands:
       - echo Removing unnecessary files...
       - rm -rf node_modules/
-      - npx prisma studio
 artifacts:
   base-directory: '.'
   files:
