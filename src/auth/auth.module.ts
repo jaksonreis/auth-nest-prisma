@@ -9,7 +9,7 @@ import { LocalStrategy } from './strategies/local.strategy';
 
 @Module({
   imports: [UserModule, JwtModule.register({
-    secret: process.env.JWT_SECRET,
+    secret: "95133bb3b292848d3d95bcca3be49f23",
     signOptions: { expiresIn: '30d' },
   })],
   controllers: [AuthController],
